@@ -37,3 +37,29 @@ input,select {
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
 }
+
+/*RESPONSIVE*/
+@media screen and (max-width: 600px){
+
+.konversi-body {
+    width: auto;
+    height: auto;
+}
+
+.konversi-body ,input {
+    text-align: left;
+}
+
+#inputtype {
+    position: relative;
+    bottom: 49px;
+    left: 10px;
+}
+
+#resulttype {
+    position: relative;
+    left: 187px;
+    bottom: 49px;
+}
+
+}
